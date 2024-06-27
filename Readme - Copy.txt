@@ -1,10 +1,31 @@
-Push
-git add -> masuk ke stagging area
+initiate
+	  git init
+	  git config --global user.email "you@example.com"
+	  git config --global user.name "Your Name"
+ Push
+	  git add -> masuk ke stagging area
+	  git status -> buat check
+	  git commits m "comment"
+	 connect ke github repository
+	  copy link disitu
+	  git push
+done..
 
-git status -> buat check
+cara push
+	  git add .
+	  git status
+	  git commits m "comment"
+	  git push
 
-git commits -m "comment"
+cara pull
+	cd directory
+	git clone link repository
 
-git push
+cara previous version
+	git checkout 
+	
 
-pull
+git fetch
+git pull
+
+git Ignore
